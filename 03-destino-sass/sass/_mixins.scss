@@ -27,3 +27,10 @@
   grid-template-rows: $rows;
   gap: $gap;
 }
+
+@mixin displayflex($gap: 0, $justify: flex-start, $align: center) {
+  display: flex;
+  gap: $gap;
+  justify-content: $justify;
+  align-items: $align;
+}
